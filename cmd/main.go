@@ -1,7 +1,7 @@
 package main
 
 import (
-	pack "gitlab.com/celikelozdinc/static_check/pkg/model"
+	pack "github.com/celikelozdinc/static_check/pkg/model"
 )
 
 func main() {

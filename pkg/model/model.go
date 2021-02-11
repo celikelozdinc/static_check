@@ -3,7 +3,7 @@ package model
 import (
 	"fmt"
 
-	api "gitlab.com/celikelozdinc/static_check/api"
+	api "github.com/celikelozdinc/static_check/api"
 )
 
 type (
