@@ -11,3 +11,8 @@ type (
 		MySlice []int
 	}
 )
+
+
+const (
+	customCounter = 17
+)

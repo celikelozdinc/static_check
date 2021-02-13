@@ -23,4 +23,9 @@ func main() {
 	sort.Slice([]int{5}, nil)
 	//sort.Slice(custom, nil) // => sort.Slice must only be called on slices, was called on [5]int (SA1028)
 
+	x1, y := printer.Get() // => this value of x1 is never used (SA4006)
+	fmt.Println(y)
+	x1, _ = printer.Get()
+	fmt.Println(x1)
+
 }
